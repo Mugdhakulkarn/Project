@@ -78,20 +78,55 @@ float: right;
 }
 
 .rectangle {
-  padding-left: 15px;
-  padding-right: 15px;
+  
+ border: black;
+ border-radius: 15%;
   position: absolute;
   top: 0;
   left: 0;
-  width: 400px; 
-  height: 137px; 
-  background-color: #f02121; 
-  opacity: 0.5; /* transparency */
+  width: 250px; 
+  height: 110px; 
+  background-color: #E9EBF8; 
+  opacity: 1; /* transparency */
   z-index: -1;
 }
 
-.image-box img {
-  width: 155px; /* Set width of images */
-  height:137px;
-  height: auto; 
+.rectangle1 {
+ 
+  border-radius: 15%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px; 
+  height: 110px; 
+  background-color: #E9EBF8; 
+  opacity: 1; /* transparency */
+  z-index: -1;
 }
+
+
+
+
+.container {
+  position: relative;
+}
+
+.container1 {
+  position: relative;
+}
+
+
+.image-over-rectangle {
+  position: absolute;
+  width:150px;
+  height:100px;
+  top: 50%; /* Adjust positioning of image */
+  left: 50%; /* Adjust positioning of image */
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensures the image is above the rectangle */
+}
+
+
+
+
+
