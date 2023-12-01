@@ -6,6 +6,7 @@
 .name{
   padding-left: 50px;
   align-items: center;
+ 
 }
 
 .myNavbar{
@@ -23,6 +24,8 @@
       width: 60%;
       margin: 0 auto; 
       text-align: center;
+      font-size: 18px;
+     
   }
   nav a{
       color: #fff;
@@ -140,11 +143,11 @@ float: right;
 .img-card{
   width:80%;
   
-  background-color: #f17081;
+  background-color: #E9EBF8;
   padding: 30px;
   
   margin: 1.5%;
- 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 .image{
@@ -217,3 +220,5 @@ float: right;
   background: white;
   color: #3B5998;
 }
+
+
