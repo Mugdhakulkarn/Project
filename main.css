@@ -89,13 +89,13 @@ float: right;
   font-size: 28px;
   font-weight: bold;
   width:40%;
-  
+  margin-top: 15px;
   }
 
   .info1{
-    padding-left: 4%;
+    padding-left: 2%;
     font-size: 28px;
-    width:40%;
+    width:80%;
   }
 
   .image-text-container {
@@ -221,4 +221,22 @@ float: right;
   color: #3B5998;
 }
 
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: 0.5s;
+}
+
+.slide {
+  width: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
 
