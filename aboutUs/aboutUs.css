@@ -194,13 +194,33 @@
   }
   
   .img-card{
-    width:60%;
+    width:80%;
     
-    background-color: #E9EBF8;
+    background-color: #245680;
     padding: 30px;
     margin-top: 20px;
     margin: 1.5%;
+    
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 15%;
+  }
+
+  .title1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25%;
+   
+    margin-bottom: 10px;
+
+  }
+  
+  .title2{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 1%;
+    margin-top: 5px;
+    
   }
   
   .image{

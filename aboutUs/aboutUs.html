@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="styles.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="aboutUs.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" type="text/css" href="../header.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI610V8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+  <!-- <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+  /*$("#header").load("Project\header.css"); 
+  $("#footer").load("Project\footer.css"); */
+});
+</script>  -->
+  <include src="Project\header.html"></include>
 </head>
+
 <body class="main">
 
 
-   <section id="header">
-    
- <nav>
-        <div class="logo">
-          <p>Fork Infosystems</p>
-        </div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="aboutUs\aboutUs.html">About Us</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Placement</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <button class="signupbutton">Sign Up</button>
-        </ul>
-      </nav>
+  <include src="Project/header.html"></include>
+  <section id="header">
+    <!--<div id="header"></div>-->
+    <nav class="navigationbar">
+      <div class="logo">
+        <p class="mainnavigation">Fork Infosystems</p>
+      </div>
+      <ul class="menuul">
+        <li class="menuli"><a class="links" href="home/home.html">Home</a></li>
+        <li class="menuli"><a href="aboutUs/aboutUs.html">About Us</a></li>
+        <li class="menuli"><a href="gallery/gallery.html">Gallery</a></li>
+        <li class="menuli"><a href="courses/courses.html">Courses</a></li>
+        <li class="menuli"><a href="placement/placement.html">Placement</a></li>
+        <li class="menuli"><a href="contactUs/contactUs.html">Contact Us</a></li>
+        <button class="signupbutton">Sign Up</button>
+      </ul>
+    </nav>
 
-<!--<div class="column">
+    <!--<div class="column">
     <div class="image-container1">
         <img src="C:\Users\admin\Desktop\Project\assets\images\domenico-loia-hGV2TfOh0ns-unsplash.jpg" class="full-width-image">  
         <div class="banner-text">
@@ -37,71 +63,84 @@
         </div>
     </div>
   </div> -->
-  
-
-  
-   </section>
 
 
 
-     <section id="future">
-        <div>
-            <h3 class="title">IT'S TIME TO KNOW US</h3> 
+  </section>
+
+
+
+  <section id="future">
+    <div>
+      <h3 class="title">IT'S TIME TO KNOW US</h3>
+    </div>
+    <div>
+      <h2>‘’WE PLANT THE SEEDS OF KNOWLEDGE SPRINKLES THEM WITH LOVE AND PATIENTLY NURTURE THEIR GROWTH
+
+        TO PRODUCE TOMORROW'S DREAMS.’’</h2>
+    </div>
+
+    <div class="image-text-container">
+
+      <p class=info1>
+        We started our journey in 2018 by teaching just a single student and now have added more than 500 students to
+        our family and the count is
+        increasing year by year. We are tasting success because we have solid support from our students and blessings
+        from their parents. The
+        sole purpose of starting this journey is to build confident,wise and hard working students who can cope up with
+        the working standards of IT
+        industries. We develop the skills in students which are required by the IT Industries to face any challenges
+        that come in their career.
+        Therefore we conduct activities other than our regular batches are mentioned below.
+        Resume Building
+        Career Guidance
+        Mock Interviews
+        Training on: How to work in IT Industry by industry experts
+        Guest lectures on various domains to give more exposure to students to choose their path.
+
+        We are also conducting ONLINE batches to reach upto maximum students and guide them to shape their career.
+      </p>
+
+      <!--<img src="assets\images\downloa.png">-->
+    </div>
+
+  </section>
+  <section id="course">
+
+    <div class="main-img-container">
+      <div class="img-container">
+        <div class="img-card"><label class="title1">Who we are</label>
+          <div><label class="title2">A passionate guide to build your career</label></div>
         </div>
-        <div>
-          <h2>‘’WE PLANT THE SEEDS OF KNOWLEDGE SPRINKLES THEM WITH LOVE AND PATIENTLY NURTURE THEIR GROWTH
-
-            TO PRODUCE TOMORROW'S DREAMS.’’</h2>
+        <div class="img-card"><label class="title1">Our Vision</label>
+          <div><label class="title2">Focus more on practical knowledge</label></div>
         </div>
-      
-          <div class="image-text-container">
-            
-            <p class=info1>
-              We started our journey in 2018 by teaching just a single student and now have added more than 500 students to our family and the count is
-              increasing year by year. We are tasting success because we have solid support from our students and blessings from their parents. The 
-             sole purpose of starting this journey is to build confident,wise and hard working students who can cope up with the working standards of IT 
-             industries. We develop the skills in students which are required by the IT Industries to face any challenges that come in their career. 
-             Therefore we conduct activities other than our regular batches are mentioned below.
-              Resume Building
-              Career Guidance 
-              Mock Interviews
-              Training on: How to work in IT Industry by industry experts
-              Guest lectures on various domains to give more exposure to students to choose their path.
-             
-             We are also conducting ONLINE batches to reach upto maximum students and guide them to shape their career.
-              </p>
-              
-              <!--<img src="assets\images\downloa.png">-->
+        <div class="img-card"><label class="title1">Our Misson</label>
+          <div><label class="title2">Build confident and industry ready students</label></div>
         </div>
-
-     </section>
-    <section id="course">
-        
-       <div class="main-img-container">
-        <div class="img-container">
-            <div class="img-card"><div class="image"><img src="assets/images/(4).png" alt=""></div></div>
-            <div class="img-card"><div class="image"><img src="assets/images/(3).png" alt=""></div></div>
-            <div class="img-card"><div class="image"><img src="assets/images/(5).png" alt=""></div></div>
-            <div class="img-card"><div class="image"><img src="assets/images/(1).jpg" alt=""></div></div>
-            
-
+        <div class="img-card"><label class="title1">Our Activity</label>
+          <div><label class="title2">Industrial trainings, Mock Interviews</label></div>
         </div>
-       </div>
-    
-    </section>
-    
+      </div>
+    </div>
 
-    <section class="footer">
+  </section>
+
+  <!--<div id="footer"></div>-->
+  <section class="footer">
     <div class="social">
       <div class="foot">
-          <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>  
-      
-  </div>
+        <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+
+    </div>
 
 </body>
+<script type="text/javascript">
+
+</script>
 
 </html>
