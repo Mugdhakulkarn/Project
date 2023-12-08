@@ -107,7 +107,7 @@ font-family: 'Inter', sans-serif;
   .info1{
     padding-left: 2%;
     padding-right: 2%;
-    font-size: 28px;
+    font-size: 25px;
     width:80%;
     background-color:#fff;
     line-height: 1.2cm;
@@ -115,6 +115,22 @@ font-family: 'Inter', sans-serif;
     
     font-family: 'Inter', sans-serif;
 
+  }
+
+  .text{
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 25px;
+    width:80%;
+    background-color:#fff;
+    line-height: 1cm;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .textimg{
+    padding-left: 7%;
+    height:300px;
+    width:350px;
   }
 
   .image-text-container {
@@ -290,7 +306,7 @@ nav{
 }
 
 nav .logo p{
-  font-size: 30px;
+  font-size: 23px;
   font-weight: bold;
   float:left;
   color: #fff;
@@ -306,7 +322,7 @@ nav li{
   list-style: none;
 }
 nav li a{
-  font-size: 20px;
+  font-size: 15px;
   
   padding: 0px 10px;
   color:white;

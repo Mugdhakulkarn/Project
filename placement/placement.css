@@ -73,15 +73,27 @@
   }
   
   .title{
-    text-align: center;
-    font-size: 23px;
+    padding-left: 10%;
+     color: #0E3F66;
+    font-size: 28px;
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 4%;
     margin-bottom: 30px;
     font-family: 'Inter', sans-serif;
   
   }
   
+  .banner-text{
+    padding-left: 10%;
+    
+    padding-right: 10%;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1px;
+    line-height: 1cm;
+    font-family: 'Inter', sans-serif;
+  }
+
   .image-box {
     position: relative;
     margin-right: 20px; 
@@ -95,28 +107,7 @@
     /*margin-top: 15px;*/
     }
   
-   /* .heading{
-     
-    font-size: 25px;
-    font-weight: bold;
-    
-    display: flex;                                                                                                                            
-    
    
-    }*/
-    .info1{
-      padding-left: 2%;
-      padding-right: 2%;
-      font-size: 28px;
-      width:80%;
-      background-color:#fff;
-      line-height: 1.2cm;
-      border-style:inset;
-      
-      font-family: 'Inter', sans-serif;
-  
-    }
-  
     .image-text-container {
       display: flex;                                                                                                                            
      justify-content: space-evenly;
@@ -146,38 +137,7 @@
       /*opacity: 0.6;*/
     }
   
-    .banner-text{
-      position: absolute;
-      font-family: 'Inter', sans-serif;
-      color:#3B5998;
-      top: 60%;
-     left: 3%;
-    /*transform: translate(-50%, -50%);
-      bottom: 80px;
-      right: 50px;
-      margin-left: 20px;*/
-      
-    }
-  
-    .banner-text h3{
-      margin-right: 7px;
-      padding-left: 150px;
-      font-size:25px;
-      text-transform: uppercase;
-      font-weight: bold;
-      margin-bottom: 1px;
-      line-height: 1.5cm;
-      font-family: 'Inter', sans-serif;
-    }
-  
-    .banner-text h2{
-      font-family: 'Inter', sans-serif;
-      font-size:23px;
-      text-transform: uppercase;
-      font-weight: bold;
     
-    }
-  
   .main-img-container{
     margin-top: 30px;
     width:100%;
@@ -293,7 +253,7 @@
   }
   
   nav .logo p{
-    font-size: 30px;
+    font-size: 23px;
     font-weight: bold;
     float:left;
     color: #fff;
@@ -309,7 +269,7 @@
     list-style: none;
   }
   nav li a{
-    font-size: 20px;
+    font-size: 15px;
     
     padding: 0px 10px;
     color:white;
@@ -396,49 +356,4 @@
     width: 100%;
   }
   
-  .slider{
-    overflow: hidden;
-  }
   
-  #slider figure{
-    position: relative;
-    
-    width:500%;
-   margin:0;
-   left:0;
-  
-    animation:20s slider infinite;
-  }
-  
-  #slider figure img{
-    float: left;
-    width: 20%;
-  }
-  
-  
-  @keyframes slider {
-    0%{
-      left:0;
-    }
-    20%{
-      left:0;
-    }
-    25%{
-      left:-100%;
-    }
-    45%{
-      left:-100%;
-    }
-    50%{
-      left:-200%;
-    }
-    70%{
-      left:-200%;
-    }
-    75%{
-      left:-300%;
-    }
-    95%{
-      left:-300%;
-    }
-  }
