@@ -75,7 +75,7 @@
   .title{
     padding-left: 10%;
      color:black;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
     margin-top: 4%;
     margin-bottom: 30px;
@@ -168,15 +168,23 @@
   
   .img-card{
     width:60%;
-    
+    border-radius: 30px;
     background-color: #E9EBF8;
     padding: 30px;
     margin-top: 20px;
     margin: 1.5%;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
   }
-  
+
   .image{
+  mix-blend-mode: multiply;
+  filter: contrast(2);
+  height:70px;
+  display: flex;
+  justify-content: center;
+}
+
+  /*.image{
     
       mix-blend-mode: multiply;
       filter: contrast(2);
@@ -185,7 +193,7 @@
     height:70px;
     display: flex;
     justify-content: center;
-  }
+  }*/
   
   .footercontainer{
     background: #176BAD;

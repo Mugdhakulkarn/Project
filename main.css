@@ -64,17 +64,14 @@ display: inline-block;
 font-size: 16px;
 margin: 4px 2px;
 cursor: pointer;
-border-top-left-radius: 25%;
-border-top-right-radius: 25%;
-border-bottom-left-radius: 25%;
-border-bottom-right-radius:25%;
+border-radius: 30px;
 font-family: 'Inter', sans-serif;
 
 }
 
 .title{
   text-align: center;
-  font-size: 23px;
+  font-size: 25px;
   font-weight: bold;
   margin-top: 35px;
   margin-bottom: 30px;
@@ -111,8 +108,9 @@ font-family: 'Inter', sans-serif;
     width:80%;
     background-color:#fff;
     line-height: 1.2cm;
-    border-style:inset;
-    
+    /*border-style:inset;*/
+    color: black;
+     text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
     font-family: 'Inter', sans-serif;
 
   }
@@ -214,6 +212,7 @@ font-family: 'Inter', sans-serif;
 
 .img-card{
   width:60%;
+  border-radius: 25px;
   background-color: #E9EBF8;
   padding: 30px;
   margin-top: 20px;
