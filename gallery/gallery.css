@@ -188,9 +188,8 @@ font-family: 'Inter', sans-serif;
 
 .image{
   
-    mix-blend-mode: multiply;
-    filter: contrast(2);
-  
+  mix-blend-mode: multiply;
+  filter: contrast(2);
   width:150px;
   height:70px;
   display: flex;
