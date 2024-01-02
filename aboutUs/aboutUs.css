@@ -3,6 +3,10 @@
   font-family: 'Inter', sans-serif;
   
  }
+ .maincontainer{
+  width: 90%;
+  margin: auto;
+ }
 
 .name{
   padding-left: 50px;
@@ -98,10 +102,10 @@ font-family: 'Inter', sans-serif;
   }*/
   .info1{
    margin-top: 2%;
-   font-size: 25px;
+   font-size: 16px;
     width:80%;
-    background-color:#fff;
-    line-height: 1.3cm;
+    
+    line-height:1cm;
     font-family: 'Inter', sans-serif;
 
   }
@@ -139,7 +143,7 @@ font-family: 'Inter', sans-serif;
   .title{
     padding-left: 10%;
      color: #FD7E09;
-     font-size: 25px;
+     font-size: 24px;
     font-weight: bold;
     margin-top: 4%;
     margin-bottom: 30px;
@@ -151,7 +155,7 @@ font-family: 'Inter', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 1px;
     line-height: 1cm;
@@ -198,7 +202,7 @@ font-family: 'Inter', sans-serif;
 .title1{
   color:white;
   font-weight: bold;
-  font: size 20px;
+  font: size 22px;
   font-family: 'Inter', sans-serif;
   line-height: 1cm;
 }

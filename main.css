@@ -8,10 +8,8 @@
 body{
   background: url("./assets/Images/moroccan-flower.png") no-repeat; 
 }
-.main{
-
-
-  width: 90%;
+.maincontainer{
+  width: 80%;
   margin: auto;
  }
 
@@ -49,7 +47,7 @@ body{
 
 
   .header {
-    font-family: 'Inter', sans-serif;
+font-family: 'Inter', sans-serif;
 height:100px;
 text-align: center;
 background: #E9F5FE;
@@ -83,6 +81,7 @@ font-family: 'Inter', sans-serif;
 
 .title{
   text-align: center;
+  
   font-size: 25px;
   font-weight: bold;
   margin-top: 35px;
@@ -196,7 +195,7 @@ font-family: 'Inter', sans-serif;
   .banner-text h3{
     margin-right: 7px;
     padding-left: 150px;
-    font-size:25px;
+    font-size:28px;
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 1px;
@@ -206,7 +205,7 @@ font-family: 'Inter', sans-serif;
 
   .banner-text h2{
     font-family: 'Inter', sans-serif;
-    font-size:23px;
+    font-size:27px;
     text-transform: uppercase;
     font-weight: bold;
   
@@ -219,7 +218,7 @@ font-family: 'Inter', sans-serif;
 .main-img-container{
   margin-top: 30px;
   width:100%;
-  overflow: hidden;
+  overflow:x;
 }
 
 .img-container{
@@ -414,18 +413,11 @@ background-position: center;
   background: #176BAD;
 }
 
-
-
-
-
-
 .wrapper{
  width: 100%;
  display: flex;
  animation: slide 3s infinite;
 }
-
-
 
 .full-image{
   width: 100%;

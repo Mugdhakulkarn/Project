@@ -9,6 +9,11 @@
    
   }
   
+  .maincontainer{
+    width: 80%;
+    margin: auto;
+   }
+   
   .myNavbar{
         width: 100%;
         margin:0;  
@@ -74,8 +79,8 @@
   
   .title{
     padding-left: 10%;
-     color:black;
-    font-size: 25px;
+    color: #FD7E09;
+    font-size: 24px;
     font-weight: bold;
     margin-top: 4%;
     margin-bottom: 30px;
@@ -177,9 +182,10 @@
   }
 
   .image{
+    height:100px;
   mix-blend-mode: multiply;
   filter: contrast(2);
-  height:70px;
+  /* height:70px; */
   display: flex;
   justify-content: center;
 }
