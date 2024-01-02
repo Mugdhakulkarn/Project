@@ -64,24 +64,22 @@ font-size: 20px;
   }
 
   .signupbutton {
-  cursor: pointer;  
-background-color: #0E3F66; 
-border: none;
-color: white;
-padding: 10px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
-border-top-left-radius: 25%;
-border-top-right-radius: 25%;
-border-bottom-left-radius: 25%;
-border-bottom-right-radius:25%;
-font-family: 'Inter', sans-serif;
-
-}
+    cursor: pointer;  
+  background-color: #0E3F66; 
+  border: none;
+  color: white;
+  padding: 10px;
+  width:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: 'Inter', sans-serif;
+  
+  }
 
 
 .image-box {
@@ -160,7 +158,7 @@ font-family: 'Inter', sans-serif;
   .banner-text{
     padding-left: 10%;
     padding-right: 10%;
-    text-transform: uppercase;
+    /* text-transform: lowercase; */
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 1px;
@@ -171,7 +169,7 @@ font-family: 'Inter', sans-serif;
   .banner-text h2{
     font-family: 'Inter', sans-serif;
     font-size:22px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: bold;
   
   }
@@ -189,7 +187,7 @@ font-family: 'Inter', sans-serif;
   margin-top:3%;
   margin-bottom: 3%;
   margin-top: 3%;*/
-  border-radius: 20%;
+  border-radius: 10%;
   display:flex;
   
 }
@@ -201,8 +199,8 @@ font-family: 'Inter', sans-serif;
   padding: 30px;
   margin-top: 20px;
   margin: 1.5%;
-  border-radius: 30px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .title1{
@@ -271,7 +269,7 @@ font-family: 'Inter', sans-serif;
     opacity: 0.7;
 }
 
-.fa-facebook {
+/* .fa-facebook {
   background: white;
   color: #3B5998;
 }
@@ -289,7 +287,7 @@ font-family: 'Inter', sans-serif;
 .fa-instagram {
   background: white;
   color: #3B5998;
-}
+} */
 
 
 *{
@@ -361,9 +359,9 @@ background-position: center;
 
 .footer .social a{
   
-  font-size: 24px;
+  font-size: 28px;
   color:inherit;
-  border:1px solid #ccc;
+  /* border:1px solid #ccc; */
   width:40px;
   height: 40px;
   line-height: 38px;
@@ -371,7 +369,7 @@ background-position: center;
   text-align: center;
   border-radius: 50%;
   margin:0 8px;
-  opacity: 0.75;
+  /* opacity: 0.75; */
 }
 
 .footer .social a:hover{

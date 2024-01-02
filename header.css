@@ -30,26 +30,25 @@
   color: #176BAD;
   font-size: 20px;
   }
-    .signupbutton {
+  .signupbutton {
     cursor: pointer;  
   background-color: #0E3F66; 
   border: none;
   color: white;
   padding: 10px;
+  width:100px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-top-left-radius: 25%;
-  border-top-right-radius: 25%;
-  border-bottom-left-radius: 25%;
-  border-bottom-right-radius:25%;
+  border-radius: 30px;
+  font-family: 'Inter', sans-serif;
   
   }
   
- 
+  
   
   *{
     margin:0px;

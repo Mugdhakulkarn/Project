@@ -58,24 +58,22 @@
     }
   
     .signupbutton {
-    cursor: pointer;  
-  background-color: #0E3F66; 
-  border: none;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-top-left-radius: 25%;
-  border-top-right-radius: 25%;
-  border-bottom-left-radius: 25%;
-  border-bottom-right-radius:25%;
-  font-family: 'Inter', sans-serif;
-  
-  }
+      cursor: pointer;  
+    background-color: #0E3F66; 
+    border: none;
+    color: white;
+    padding: 10px;
+    width:100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+    
+    }
   
   .title{
     padding-left: 15px;
@@ -89,10 +87,10 @@
   }
   
   .banner-text{
-    padding-left: 15px;
+    /* padding-left: 15px; */
     /* font-size: 24px; */
-    padding-right: 10%;
-    text-transform: uppercase;
+    /* padding-right: 10%; */
+    /* text-transform: uppercase; */
     font-weight: bold;
     margin-bottom: 1px;
     line-height: 1cm;
@@ -222,7 +220,7 @@
       opacity: 0.7;
   }
   
-  .fa-facebook {
+  /* .fa-facebook {
     background: white;
     color: #3B5998;
   }
@@ -240,7 +238,7 @@
   .fa-instagram {
     background: white;
     color: #3B5998;
-  }
+  } */
   
   
   *{
@@ -311,9 +309,9 @@
   
   .footer .social a{
     
-    font-size: 24px;
+    font-size: 28px;
     color:inherit;
-    border:1px solid #ccc;
+    /* border:1px solid #ccc; */
     width:40px;
     height: 40px;
     line-height: 38px;
@@ -321,7 +319,7 @@
     text-align: center;
     border-radius: 50%;
     margin:0 8px;
-    opacity: 0.75;
+    /* opacity: 0.75; */
   }
   
   .footer .social a:hover{
