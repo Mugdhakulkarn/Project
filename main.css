@@ -6,7 +6,7 @@
 }
 
 body{
-  background: url("./assets/Images/moroccan-flower.png") no-repeat; 
+  background: url("./assets/Images/flex.png") no-repeat; 
 }
 .maincontainer{
   width: 80%;
@@ -34,9 +34,9 @@ body{
       width: 60%;
       margin: 0 auto; 
       text-align: center;
-      font-size: 18px;
-     
+      font-size: 18px; 
   }
+
   nav a{
       color: #fff;
       text-decoration: none;
@@ -80,12 +80,13 @@ font-family: 'Inter', sans-serif;
 }
 
 .title{
-  text-align: center;
-  
+  /* text-align: center; */
+  color: #FD7E09;
   font-size: 25px;
   font-weight: bold;
   margin-top: 35px;
   margin-bottom: 30px;
+  padding-left: 15px;
   font-family: 'Inter', sans-serif;
 
 }
@@ -113,6 +114,7 @@ font-family: 'Inter', sans-serif;
  
   }*/
   .info1{
+    padding-top:70px;
     padding-left: 2%;
     padding-right: 2%;
     font-size: 16px;
@@ -126,6 +128,7 @@ font-family: 'Inter', sans-serif;
   }
 
   .text{
+    padding-top: 80px;
     padding-left: 7%;
     padding-right: 7%;
     font-size: 16px;
@@ -137,6 +140,7 @@ font-family: 'Inter', sans-serif;
   }
 
   .textimg{
+    padding-bottom: 70px;
     padding-left: 7%;
     height:300px;
     width:350px;
@@ -145,8 +149,9 @@ font-family: 'Inter', sans-serif;
   .image-text-container {
     display: flex;                                                                                                                            
    justify-content: space-evenly;
+   /* margin-top: 10px; */
    margin-bottom: 3%;
-   padding: 5% 0;
+   /* padding: 5% 0; */
   }
   .image-text-container .left-img-container{
     width: 40%;
@@ -211,14 +216,16 @@ font-family: 'Inter', sans-serif;
   
   }
 
-  #course{
+  /* #course{
     padding: 5% 0;
-  }
+  } */
 
 .main-img-container{
   margin-top: 30px;
   width:100%;
-  overflow:x;
+
+margin-bottom: 50px;
+  /* overflow:x; */
 }
 
 .img-container{
@@ -424,7 +431,7 @@ background-position: center;
 }
 
 .slider{
-  overflow: hidden;
+  overflow-x:hidden;
 }
 
 #slider figure{

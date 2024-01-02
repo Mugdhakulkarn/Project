@@ -78,7 +78,7 @@
   }
   
   .title{
-    padding-left: 10%;
+    padding-left: 15px;
     color: #FD7E09;
     font-size: 24px;
     font-weight: bold;
@@ -89,8 +89,7 @@
   }
 
   .banner-text{
-    padding-left: 10%;
-    
+    padding-left: 15px;
     padding-right: 10%;
     text-transform: uppercase;
     font-weight: bold;

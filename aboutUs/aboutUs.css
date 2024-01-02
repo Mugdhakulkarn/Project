@@ -6,7 +6,13 @@
  .maincontainer{
   width: 90%;
   margin: auto;
+  background: url("../assets/Images/.png") no-repeat; 
+
  }
+
+ /* body{
+  background: url("./assets/Images/flex.png") no-repeat; 
+} */
 
 .name{
   padding-left: 50px;
