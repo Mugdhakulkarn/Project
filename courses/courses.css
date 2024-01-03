@@ -76,6 +76,7 @@
     }
 
   .button {
+    
     text-align: center;
     display: block;
     cursor: pointer;  
@@ -83,8 +84,8 @@
     border: none;
     color: white;
     margin: 10px;
-    padding: 10px
-
+    padding: 10px;
+    
   }
   
   .title{
@@ -181,13 +182,14 @@
   }
   
   .img-card{
+  
     width:60%;
     border-radius: 15px;
     background-color: #E9EBF8;
     padding: 10px;
     margin-top: 20px;
     margin: 1.5%;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 3px 3px 5px rgba(56, 42, 42, 0.6);
   }
 
   .image{
@@ -197,6 +199,7 @@
   /* height:70px; */
   display: flex;
   justify-content: center;
+  
 }
 
   /*.image{
@@ -250,25 +253,49 @@
       opacity: 0.7;
   }
   
-  /* .fa-facebook {
-    background: white;
-    color: #3B5998;
+  .fa-facebook {
+    color:white;
+    width:40px;
+    height: 40px;
+    font-size: 28px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0.3%;
   }
   
   .fa-linkedin {
-    background: white;
-    color: #3B5998;
+    color:white;
+  width:40px;
+  height: 40px;
+  font-size: 28px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0.3%;
   }
   
   .fa-youtube {
-    background: white;
-    color: #3B5998;
+    color:white;
+  width:40px;
+  height: 40px;
+  font-size: 28px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0.3%;
   }
   
   .fa-instagram {
-    background: white;
-    color: #3B5998;
-  } */
+    color:white;
+    width:40px;
+    height: 40px;
+    font-size: 28px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0.3%;
+  }
   
   
   *{
@@ -328,7 +355,7 @@
   .social{
     width: 100%;
       height: 75px;
-      line-height: 75px;
+      line-height: 80px;
   }
   
   .footer .social{
@@ -337,11 +364,11 @@
     height: 75px;
   }
   
-  .footer .social a{
+  /* .footer .social a{
     
     font-size: 28px;
     color:inherit;
-    /* border:1px solid #ccc; */
+    border:1px solid #ccc;
     width:40px;
     height: 40px;
     line-height: 38px;
@@ -349,8 +376,8 @@
     text-align: center;
     border-radius: 50%;
     margin:0 8px;
-    /* opacity: 0.75; */
-  }
+    opacity: 0.75;
+  } */
   
   .footer .social a:hover{
     opacity: 0.9;
@@ -366,7 +393,7 @@
   }
   
   .foot{
-    
+    padding-right: 90px;
     height: 75px;
     width:100%;
     background: #176BAD;
